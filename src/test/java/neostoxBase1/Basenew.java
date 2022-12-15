@@ -22,10 +22,7 @@ public class Basenew
 	  driver.manage().window().maximize();
 	  driver.get(Utilitynew.readDataFrompropertyFile("url"));
 	  Reporter.log("launching browser", true);               
-  
-	  
-	  
-	  Thread.sleep(3000);
+ Thread.sleep(3000);
 	}
 
 }
